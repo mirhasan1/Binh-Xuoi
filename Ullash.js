@@ -13,7 +13,7 @@ try {
 }
 const BOT_NAME = pkg.name || "Binh Xuoi";
 const BOT_VERSION = pkg.version || "5.0.0";
-const BOT_DESC = pkg.description || "Islamick Chat Bot";
+const BOT_DESC = pkg.description || "Binh Xuoi";
 
 // ==================== Express Server ====================
 const app = express();
@@ -61,9 +61,9 @@ function startBot(message) {
 }
 
 // ==================== Log Meta Info ====================
-logger(BOT_NAME, "[ NAME ]");
+logger(BOT_NAME, " Binh Xuoi");
 logger(`Version: ${BOT_VERSION}`, "[ VERSION ]");
-logger(BOT_DESC, "[ DESCRIPTION ]");
+logger(BOT_DESC, "Binh Xuoi");
 
 // ==================== GitHub Update Check (Optional) ====================
 axios.get("https://raw.githubusercontent.com/cyber-ullash/cyber-bot/main/data.json")
